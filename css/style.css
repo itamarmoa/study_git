@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    background-color: lightseagreen;
+}
+
+article p{
+    font-size: 18px;
+    border: gray solid 0.5px;
+    border-radius: 5px;
+    background-color: beige;
+    width: 250px;
+}
+
+ul > li{
+    color: darkred;
+}

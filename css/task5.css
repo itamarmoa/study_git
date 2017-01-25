@@ -1,0 +1,25 @@
+body{
+    font-family: 'Open Sans Hebrew', sans-serif;
+    font-weight: 500;
+    margin:0;
+    background:white;
+}
+header {
+    width:100vw;
+    height: 100px;
+
+    background-color: lightcyan;
+    text-align: center;
+}
+#navbar{
+    width: 200px;
+    height: 600px;
+    float: left;
+
+    background: slategrey;
+}
+.ads{
+    float: right;
+    background: lightgreen;
+    height: 100%;
+}

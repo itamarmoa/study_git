@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin:0;
+    background:white;
+}
+.film{
+    position: absolute;
+    background-color: grey;
+    height: 100vh;
+    width: 10vw;
+    top:0px;
+}
+.film.left{
+    left:0px;
+}
+.film.right{
+    right:0px;
+}
+#face{
+    position: relative; 
+    background: #2C393F;
+    height: 600px;
+    width: 600px;
+    margin: 100px auto;
+    border-radius: 50%;
+}
+#eye_l{
+    background: white;
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 25% 0 0 15%;
+    border-radius: 50%;
+}
+#eye_r{
+    background: white;
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin: 25% 15% 0 0;
+    border-radius: 50%;
+}
+#mouth{
+    background: white;
+    height: 50px;
+    width: 300px;
+    margin: 45% 0 0 25%;
+    display: block;
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+}
+.hole{
+    background:white;
+    height: 70px;
+    width: 80%;
+    margin: 20px auto;
+}
