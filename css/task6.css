@@ -1,0 +1,76 @@
+@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+
+body{
+    font-family: 'Open Sans Hebrew', sans-serif;
+    font-weight: 500;
+    margin:0;
+    background:white;
+}
+article {
+    position:absolute;
+    background: #f2f2f2;
+    width: 477px;
+    height:361px;
+    padding: 0px;
+    text-align: right;
+    overflow:hidden;
+    direction: rtl;
+    cursor: pointer;
+}
+article:hover .overlay{
+    bottom:0;
+}
+.overlay{
+    height: 361px;
+    bottom: -256px;
+    z-index:2;
+    position:absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 0px 6px;
+    transition: all 0.3s ease-in-out;
+}
+article img{
+    display: block;
+    position: absolute;
+    width: 477px;
+    height: 361px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.article_title{
+    font-weight: normal;
+    font-size:34px;
+    line-height: 45px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    min-height: 90px;    
+    direction: rtl;
+}
+article .block{
+    display: block;
+    margin-bottom: 25px;
+}
+.ribbon{
+    display:inline-block;
+    background: #eb3259;
+    padding: 0 10px;
+    color: white;
+    box-shadow: -2px 2px 0px #888888;
+}
+article .comments{
+    position: relative;
+    margin-right:15px;
+    top:2px;
+    font-size: 15px;
+}
+article .desc{
+    position:absolute;
+    bottom:0;
+    padding-top: 20px;
+    font-size:17px;
+    line-height: 23px;
+}

@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+
+body{
+    font-family: 'Open Sans Hebrew', sans-serif;
+    font-weight: 500;
+    margin:0;
+    background:white;
+    direction: rtl;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.clearfix{
+    clear:both !important;
+}
+.clearfix:before {
+    content: "" !important;
+}
+.clearfix:after {
+    content: "" !important;
+    display: table !important;
+    clear: both !important;
+}
+#worth_reading{
+    width: 300px;
+}
+#title{
+    padding: 5px 5px 3px;
+    background: #71bf44;
+    font-size: 22px;
+    font-weight: normal;
+}
+.tabs-section{
+    background: #e5e5e5;
+    padding: 0px 5px 3px 0px;
+}
+nav ul{
+    list-style: none outside;
+}
+nav li{
+    width: 50%;
+    float: right;   
+}
+nav li i{
+    margin-left: 10px;
+}
+nav #most_talked{
+    color:white;
+    background: black;
+}
+.tabs{
+    padding-top:27px;
+}
+.tab{
+    display: block;
+}
+.tab ul{
+    counter-reset: item;
+    list-style-type: none;
+}
+.tab li:before {
+    content: counter(item) " " !important;
+    counter-increment: item;
+    display: block;
+    float: right;
+    width: 50px;
+    text-align: center;
+    font-size: 57px;
+    line-height: 57px;
+}
+.tab li a{
+    float: right;
+    width:216px;
+    margin-top: 3px;
+    color: #000;
+    position: relative;
+    display: block;
+    font-weight: normal;
+    text-decoration: none;
+}
+.tab li{
+    margin-bottom: 10px;
+}
+.tab li:hover {
+    background: #1f1c1c;
+    color:white;
+}
+
+.tab li:hover a {
+    color: #fff;
+}

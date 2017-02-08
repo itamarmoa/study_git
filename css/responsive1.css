@@ -1,0 +1,50 @@
+@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+
+body{
+    font-weight: 500;
+    margin:0;
+    background:white;
+}
+*{
+    font-family: 'Open Sans Hebrew', sans-serif !important;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.clearfix{
+    clear:both !important;
+}
+.clearfix:before {
+    content: "" !important;
+}
+.clearfix:after {
+    content: "" !important;
+    display: table !important;
+    clear: both !important;
+}
+div{
+    display: block;
+}
+#red{
+    background: red;
+}
+#yellow{
+    background: yellow;
+}
+#blue{
+    background: blue;
+}
+@media (min-device-width: 601px){
+    #red, #yellow, #blue{
+        width:33.333%;
+        height: 100px;
+        float: right;
+    }
+}
+@media (max-device-width: 600px){
+    #red, #yellow, #blue{
+        width:33.333%;
+        height: 50px;
+    }
+}
+

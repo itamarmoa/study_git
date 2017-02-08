@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+
+body{
+    font-weight: 500;
+    margin:0;
+    background:white;
+}
+*{
+    /*font-family: 'Open Sans Hebrew', sans-serif !important;*/
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.clearfix{
+    clear:both !important;
+}
+.clearfix:before {
+    content: "" !important;
+}
+.clearfix:after {
+    content: "" !important;
+    display: table !important;
+    clear: both !important;
+}
+nav{
+    position: fixed;
+    top:0;
+    width: 100vw;
+    height: 97px;
+    padding: 20px;
+    background:#f2f2f2;
+    z-index: 100;
+}
+#logo{
+    float: left;
+}
+#menu{
+    float:right;
+    font-weight: bold;
+    padding: 20px 0;
+}
+#menu ul {
+    list-style: none;
+}
+#menu ul li{
+    float:right;
+    margin-left: 35px;
+}
+#hero{
+    margin-top: 97px;
+    width:100vw;
+    min-height: 300px;
+    background-image: url("../images/mid_pic.jpg");
+    background-size: cover;
+}
+.articles_holder{
+    width: 95vw;
+}
+article{
+    max-width: 35%;
+    min-width: 30%;
+    float:left;
+    margin: 10px 20px;
+}
+article:last-child{
+    /*font-size:1vw;*/
+    min-width:15%;
+    max-width:20%;
+}
+#hamburger{
+    display:none;
+    font-size: 2em;
+    margin: 0.3em;
+}
+@media screen and (max-width: 739px){
+    #menu ul li {
+        float: none;
+    } 
+    #hamburger{
+        display: block;
+        float: right;
+    }
+}
+@media screen and (max-width: 800px){
+    article{
+        width: 49vw;
+    }
+    article:last-child{
+    font-size:1em;
+    width:49vw;
+    }
+    
+}
+@media screen and (max-width: 400px){
+    article{
+        width: 100vw;
+    }
+    article:last-child{
+    font-size:1em;
+    width:100vw;
+    }
+}
